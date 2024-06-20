@@ -1,0 +1,21 @@
+package cum.runner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)   //control + shift + O 
+@CucumberOptions(
+		features = {"src/test/resource/features"},
+		glue = {"cum.stepDefinition"},
+		plugin = {"pretty", "html:Report1"},
+		monochrome = true,
+		dryRun = true
+//		tags = "@P27"
+//		name = {"valid"}
+		)
+
+public class runner {
+
+}

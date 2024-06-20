@@ -1,0 +1,6 @@
+Feature: we are checking ebay home page1
+
+Scenario: advanced link1
+Given i am navigated to home page1
+When i click on advanced link1
+Then i navigated advanced page1

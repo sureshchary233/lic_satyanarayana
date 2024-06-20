@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (1).zip"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (1)/guava-32.0.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/animal-sniffer-annotations-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/checker-compat-qual-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/commons-text-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/htmlunit-2.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/htmlunit-core-js-2.28.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/htmlunit-cssparser-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/htmlunit-driver-2.30.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/httpmime-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jetty-client-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jetty-http-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jetty-io-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jetty-repacked-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jetty-util-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jetty-xml-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/neko-htmlunit-2.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-chrome-driver-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-edge-driver-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-firefox-driver-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-java-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-opera-driver-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-remote-driver-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-safari-driver-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-server-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-support-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/snakeyaml-1.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/websocket-client-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/websocket-common-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/jcip-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-api-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/selenium-ie-driver-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (2)/websocket-api-9.4.8.v20180619.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-server-standalone-3.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-server-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-api-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-api-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-chrome-driver-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-chrome-driver-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-chromium-driver-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-chromium-driver-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v85-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v85-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v112-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v112-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v113-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v113-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v114-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-devtools-v114-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-edge-driver-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-edge-driver-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-firefox-driver-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-firefox-driver-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-http-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-http-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-ie-driver-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-ie-driver-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-java-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-java-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-json-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-json-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-manager-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-manager-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-remote-driver-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-remote-driver-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-safari-driver-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-safari-driver-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-support-4.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/selenium-java-4.10.0/selenium-support-4.10.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/avalon-framework-4.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/logkit-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/ooxml-schemas-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/openxml4j-1.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/poi-ooxml-3.5-beta4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/servlet-api-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (3)/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/gdx-1.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/gdx-1.9.10-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/gdx-backend-gwt-1.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/gdx-backend-gwt-1.9.10-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/gwt-user-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/jsinterop-annotations-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/jsinterop-annotations-1.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/slf4j-api-1.7.28.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/vtm-0.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/vtm-gdx-0.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/vtm-themes-0.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/jar_files (4)/vtm-web-0.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/gs-core.jar/gs-core.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/testng-7.8.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

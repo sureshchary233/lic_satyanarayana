@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ChromeDriver.java&apos; to &apos;project_ebay/src/test/java/steps&apos;&#x0D;&#x0A;- Original project: &apos;CUCUMBER-APR-2023&apos;&#x0D;&#x0A;- Destination element: &apos;project_ebay/src/test/java/steps&apos;&#x0D;&#x0A;- Original element: &apos;cum.stepDefinition.ChromeDriver.java&apos;" description="Copy compilation unit" destination="=project_ebay/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;steps" element1="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;cum.stepDefinition{ChromeDriver.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1685013818479" units="1" version="1.0"/>
+</session>

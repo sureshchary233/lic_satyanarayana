@@ -1,0 +1,6 @@
+Feature: checking the advanced link
+
+Scenario: advanced search
+Given ebady home page
+When i click on advance click
+Then i am navigating to advancedd link

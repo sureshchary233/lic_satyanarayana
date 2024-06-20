@@ -1,0 +1,87 @@
+package cum.stepDefinition;
+
+import java.util.concurrent.TimeUnit;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class loginsteps {
+	WebDriver driver;
+	
+	
+	
+	@Given("user is an login page")
+	public void user_is_an_login_page() throws InterruptedException {
+		System.out.println("step 1 : user is on login page");
+		driver = new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver", "C:/Users/LENOVO/Downloads/ChromeDriver");
+//		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://mmspl.zohodesk.in/");
+		Thread.sleep(5000);
+	
+		
+	} 
+
+	@When("user enter the username and password")
+	public void user_enter_the_username_and_password() throws InterruptedException {
+		System.out.println("step 2 : user can enter username and password");
+//		if (driver != null);
+//		driver.findElement(By.xpath("//*[@id=\"menu-item-43\"]/a")).click();
+		
+		driver.findElement(By.name("username")).sendKeys("Admin");
+		Thread.sleep(3000);
+		driver.findElement(By.name("password")).sendKeys("admin123");	
+	
+//	@Given("user is an login page")
+//	public void user_is_an_login_page() throws InterruptedException {
+//		System.out.println("step 1 : user is on login page");
+//		driver = new ChromeDriver();
+////		System.setProperty("webdriver.chrome.driver", "C:/Users/LENOVO/Downloads/ChromeDriver");
+////		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+//		Thread.sleep(5000);
+//	
+//		
+//	} 
+//
+//	@When("user enter the username and password")
+//	public void user_enter_the_username_and_password() throws InterruptedException {
+//		System.out.println("step 2 : user can enter username and password");
+////		if (driver != null);
+////		driver.findElement(By.xpath("//*[@id=\"menu-item-43\"]/a")).click();
+//		
+//		driver.findElement(By.name("username")).sendKeys("Admin");
+//		Thread.sleep(3000);
+//		driver.findElement(By.name("password")).sendKeys("admin123");	
+//		
+	}
+
+	@And("click on login page")
+	public void click_on_login_page() {
+		driver.findElement(By.xpath("//*[@type='submit']")).click();
+	   
+	}
+
+	@Then("user should land on login page")
+	public void user_should_land_on_login_page() throws InterruptedException {
+		System.out.println("user wants to close the browser");
+		Thread.sleep(7000);
+		driver.close();
+	  
+	}
+
+}

@@ -1,0 +1,26 @@
+package stepss;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ebay_stepss {
+
+	@Given("i am navigated to home page")
+	public void i_am_navigated_to_home_page() {
+		System.out.println("i am navigated to home page");
+	  
+	}
+
+	@When("i click on advanced link")
+	public void i_click_on_advanced_link() {
+		System.out.println("i click on advanced link");
+
+	}
+
+	@Then("i navigated advanced page")
+	public void i_navigated_advanced_page() {
+		System.out.println("i navigated advanced page");
+	
+	}
+}
